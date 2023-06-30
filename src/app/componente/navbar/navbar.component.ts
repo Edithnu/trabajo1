@@ -9,14 +9,15 @@ export class NavbarComponent {
   título: string;
   imagen: string;
   textEvent: string;
+t: any;
   cambiarTexto(): void{
     this.textEvent = "Nombre de User"
   }
-  constructor(){
+  constructor() {
     this.título = "INCUYO";
     this.imagen = "https://images.app.goo.gl/LoEgmFBhaArd7gLF9"
     this.textEvent = "User"
 
   }
-
+  
 }
