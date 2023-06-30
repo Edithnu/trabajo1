@@ -8,9 +8,14 @@ import { Component } from '@angular/core';
 export class NavbarComponent {
   título: string;
   imagen: string;
+  textEvent: string;
+  cambiarTexto(): void{
+    this.textEvent = "Nombre de User"
+  }
   constructor(){
     this.título = "INCUYO";
     this.imagen = "https://images.app.goo.gl/LoEgmFBhaArd7gLF9"
+    this.textEvent = "User"
 
   }
 
