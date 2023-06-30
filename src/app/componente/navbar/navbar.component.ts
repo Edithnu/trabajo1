@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  título: string;
+  constructor(){
+    this.título = "INCUYO";
+
+  }
 
 }
